@@ -1,0 +1,70 @@
+.submit {
+    width: 30%;
+}
+#foods {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    padding: 20px;
+}
+.card img {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px 10px 0 0;
+}
+.card {
+    border-radius: 10px;
+}
+#food-details {
+    padding: 20px;
+}
+
+#foodList{
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+body{
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: lightgreen;
+}
+.card-body {
+    margin-top: 5px;
+    padding: 20px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar-brand img{
+    width: 110px;
+}
+.nav-bar {
+    background-color: lightgreen;
+}
+.nav-font a {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.nav-ul {
+    margin: 0 auto;
+}
+.nav-btn {
+    background-color: #3b2d64;
+    color: white;
+    border: none;
+    width: 5em;
+    height: 2.5em;
+    font-weight: bold;
+    border-radius: 0px 5px 5px 0;
+}
+#food-name {
+    width: 18em;
+    height: 2.5em;
+}
+.alert-text {
+    margin: 0 auto;
+    color: red;
+    font-weight: 580;
+}
